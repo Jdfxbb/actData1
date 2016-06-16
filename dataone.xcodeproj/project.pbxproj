@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0458F5F71D12530D009776BB /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0458F5F21D12530D009776BB /* README.md */; };
-		0458F5F81D12530D009776BB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0458F5F31D12530D009776BB /* main.cpp */; };
+		0458F5F81D12530D009776BB /* dateMain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0458F5F31D12530D009776BB /* dateMain.cpp */; };
 		0458F5F91D12530D009776BB /* assignment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0458F5F61D12530D009776BB /* assignment.cpp */; };
+		04F903CE1D1321B100B5A155 /* stuctsProj1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04F903CD1D1321B100B5A155 /* stuctsProj1.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,10 +29,11 @@
 		0458F5E71D1252D5009776BB /* dataone */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dataone; sourceTree = BUILT_PRODUCTS_DIR; };
 		0458F5F11D12530D009776BB /* StringTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringTokenizer.h; sourceTree = "<group>"; };
 		0458F5F21D12530D009776BB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		0458F5F31D12530D009776BB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0458F5F31D12530D009776BB /* dateMain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = dateMain.cpp; sourceTree = "<group>"; };
 		0458F5F41D12530D009776BB /* Date.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Date.h; sourceTree = "<group>"; };
 		0458F5F51D12530D009776BB /* assignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = assignment.h; sourceTree = "<group>"; };
 		0458F5F61D12530D009776BB /* assignment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = assignment.cpp; sourceTree = "<group>"; };
+		04F903CD1D1321B100B5A155 /* stuctsProj1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stuctsProj1.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +68,11 @@
 			children = (
 				0458F5F11D12530D009776BB /* StringTokenizer.h */,
 				0458F5F21D12530D009776BB /* README.md */,
-				0458F5F31D12530D009776BB /* main.cpp */,
+				0458F5F31D12530D009776BB /* dateMain.cpp */,
 				0458F5F41D12530D009776BB /* Date.h */,
 				0458F5F51D12530D009776BB /* assignment.h */,
 				0458F5F61D12530D009776BB /* assignment.cpp */,
+				04F903CD1D1321B100B5A155 /* stuctsProj1.cpp */,
 			);
 			path = dataone;
 			sourceTree = "<group>";
@@ -131,7 +134,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0458F5F91D12530D009776BB /* assignment.cpp in Sources */,
-				0458F5F81D12530D009776BB /* main.cpp in Sources */,
+				0458F5F81D12530D009776BB /* dateMain.cpp in Sources */,
+				04F903CE1D1321B100B5A155 /* stuctsProj1.cpp in Sources */,
 				0458F5F71D12530D009776BB /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +257,7 @@
 				0458F5F01D1252D5009776BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
