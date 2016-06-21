@@ -242,7 +242,7 @@ void editDue(list<assignment> Assn)//edit due date
 				Temp = *it;
 				Temp.setDueDate(newDueDate);
 				//sort list
-				//update txt file
+				save(Filename, assigned);
 				return;
 			}
 		}
